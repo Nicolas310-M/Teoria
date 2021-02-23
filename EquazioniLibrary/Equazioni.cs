@@ -8,7 +8,7 @@ namespace EquazioniLibrary
         {
             return a != 0;
         }
-        public static bool IsInconstisted(double a, double b)
+        public static  bool IsInconstisted(double a, double b)
         {
             if (a != 0)
                 return true;

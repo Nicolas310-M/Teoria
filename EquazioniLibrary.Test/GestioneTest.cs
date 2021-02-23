@@ -25,7 +25,7 @@ namespace EquazioniLibrary.Test
         [TestMethod]
         public void IsInconsisted1()
         {
-            double a = 1, b = 1;
+            double  a = 1, b = 1;
             bool resp = Equazioni.IsInconstisted(a, b);
             bool risultato_aspettato = true;
             Assert.AreEqual(risultato_aspettato, resp);
