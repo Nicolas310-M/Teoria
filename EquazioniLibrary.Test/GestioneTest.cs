@@ -18,7 +18,7 @@ namespace EquazioniLibrary.Test
         public void IsDeterminedTest2()
         {
             double a = 1;
-            bool resp = Equazioni.IsDetermined(a);
+            bool  resp = Equazioni.IsDetermined(a);
             bool risultato_aspettato = true;
             Assert.AreEqual(risultato_aspettato, resp);
         }
